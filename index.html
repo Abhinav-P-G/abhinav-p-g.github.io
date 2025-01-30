@@ -28,8 +28,8 @@
       .header{
         background-color: #e6575c;
         color: white;
-        font-size: 2rem;
-        height: 2em;
+        font-size: 1.8rem;
+        height: 3em;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -40,14 +40,28 @@
         font-size: 1.1rem;
         line-height: 1.2em;
       }
+
+      .college-img{
+        display: flex;
+        justify-content: center;
+      }
       .campus{
         width: 15em;
         height: 15em;
         margin-top: 1.5em;
-        margin-left: 35vw;
         object-fit: cover;
         object-position: center;
         border-radius: 2.5em;
+      }
+
+      @media (max-width: 535px) {
+       .header{
+        height: 3.5em;
+        font-size: 5vw;
+       }
+       .discription{
+        margin-left: 15px;
+       }
       }
      </style>
 
@@ -63,7 +77,11 @@
       <P class="discription">
         Government Engineering College, Sreekrishnapuram (GEC Palakkad) is a public engineering institution in Palakkad, Kerala, affiliated with APJ Abdul Kalam Technological University (KTU). Established in 1999, the college offers undergraduate and postgraduate programs in various engineering disciplines. Known for its serene campus, quality education, and strong faculty, GEC Palakkad provides students with excellent academic and research opportunities. The institution is managed by the Government of Kerala and aims to produce skilled engineers ready for industry and research. 
       </P>
-      <img class="campus" src="images/2022-08-30.jpg">
+
+      <div class="college-img">
+        <img class="campus" src="images/2022-08-30.jpg">
+      </div>
+      
     </main>
   </body>
 </html>
