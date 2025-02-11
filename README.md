@@ -1,7 +1,7 @@
 # GEC palakkad
 Government Engineering College (GEC) Palakkad, located in Sreekrishnapuram, Kerala, was established in 1999. The college is fully owned by the Government of Kerala and operates under the Directorate of Technical Education. It is approved by the All India Council for Technical Education (AICTE) and is affiliated with the APJ Abdul Kalam Technological University since 2015.
 
-![ALT text](https://images.app.goo.gl/xxKGe5KjHvShidqR7)
+<img src="https://images.app.goo.gl/xxKGe5KjHvShidqR7" alt="Alt Text" width="500" height="600">
 
 ## Academic Programs:
 
